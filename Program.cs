@@ -70,6 +70,11 @@ namespace RA22
                 int x = StringHelper.AllFound(text, letter);
                 Console.WriteLine("-- RESULT : "+x);
             }
+
+            else if (q == 10)
+            {
+    StringHelper.Radar(text);
+            }
             
 
         }
