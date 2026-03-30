@@ -108,5 +108,17 @@ namespace RA22
             }
                 return NumOfVowels;
         }
+
+        public static void Radar(string txt)
+        {
+            string Reversed = "";
+            for (int i = txt.Length - 1; i >= 0; i--)
+                Reversed += txt[i];
+
+            if (txt == Reversed)
+                Console.WriteLine("--RESULT : Its Palindrome");
+            else Console.WriteLine("--RESULT : Not Palindrome");
+
+        }
     }   
 }
